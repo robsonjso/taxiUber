@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data" />
+
+    <TextView
+        android:id="@+id/tv_driver_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motorista" />
+
+    <TextView
+        android:id="@+id/tv_origin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Origem" />
+
+    <TextView
+        android:id="@+id/tv_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destino" />
+
+    <TextView
+        android:id="@+id/tv_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distância" />
+
+    <TextView
+        android:id="@+id/tv_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duração" />
+
+    <TextView
+        android:id="@+id/tv_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor" />
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Taxi</string>
+    <string name ="MY_KEY_GOOGLE">SUA KEY API AQUI</string>
+</resources>

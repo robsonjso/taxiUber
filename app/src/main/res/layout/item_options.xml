@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="8dp">
+
+    <!-- Ícone do Motorista -->
+    <ImageView
+        android:id="@+id/iv_driver_icon"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Ícone do motorista"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_cab" />
+
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <!-- Informações do Motorista -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_driver_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do Motorista"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tv_driver_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tv_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Veículo"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota: 4.5"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$ 25,00"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <!-- Botão Escolher -->
+    <Button
+        android:id="@+id/btn_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Escolher"
+        android:textColor="@android:color/white" />
+</LinearLayout>
